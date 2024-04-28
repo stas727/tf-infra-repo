@@ -26,3 +26,27 @@ variable "CLUSTER_NAME" {
   default     = "gbot"
   description = "Cluster name"
 }
+
+variable "GITHUB_OWNER" {
+  type        = string
+  default     = "stas727"
+  description = "Github owner"
+}
+
+variable "GITHUB_TOKEN" {
+  type        = string
+  default     = "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"
+  description = "Github token"
+}
+
+variable "FLUX_GITHUB_REPO" {
+  type        = string
+  default     = "flux-gitops"
+  description = "Flux github repo"
+}
+
+variable "FLUX_GITHUB_TARGET_PATH" {
+  type        = string
+  default     = "clusters"
+  description = "Flux manifest subdirectory"
+}
