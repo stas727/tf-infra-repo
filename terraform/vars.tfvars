@@ -1,0 +1,2 @@
+CLUSTER_NAME = "gbot"
+GKE_NUM_NODES = 2
