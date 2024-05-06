@@ -1,5 +1,6 @@
 variable "GOOGLE_PROJECT" {
   type        = string
+  default     = "gbot-418317"
   description = "GCP project name"
 }
 
@@ -29,13 +30,11 @@ variable "CLUSTER_NAME" {
 
 variable "GITHUB_OWNER" {
   type        = string
-  default     = "stas727"
   description = "Github owner"
 }
 
 variable "GITHUB_TOKEN" {
   type        = string
-  default     = "token"
   description = "Github token"
 }
 
